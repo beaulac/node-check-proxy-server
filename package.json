@@ -1,0 +1,23 @@
+{
+  "name": "check-proxy-server",
+  "version": "1.0.0",
+  "description": "Barebones implementation of server-side component of node 'check-proxy' tool.",
+  "bin": {
+    "check-proxy-server": "./index.js"
+  },
+  "main": "index.js",
+  "author": "Antoine Beauvais-Lacasse <antoine.beaulac@gmail.com>",
+  "repository": "https://github.com/beaulac/node-check-proxy-server.git",
+  "license": "ISC",
+  "keywords": [
+    "check proxy",
+    "test proxy"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "check-proxy": "^0.2.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3"
+  }
+}
